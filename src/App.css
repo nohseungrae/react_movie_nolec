@@ -1,22 +1,16 @@
-.App {
-  text-align: center;
+.button {
+  border-radius: 50px;
+  padding: 5px;
+  min-width: 120px;
+  font-weight: 600;
+  color: #fff;
+  appearance: none;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
+.button-success {
+  background-color: #2ecc71;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.button-danger {
+  background-color: #e74c3c;
 }
